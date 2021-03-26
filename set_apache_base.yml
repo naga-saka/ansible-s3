@@ -12,7 +12,7 @@
     - name: Copy contents
       copy:
         src: ./files/index.html
-        dest: /var/www/html/index2.html
+        dest: /var/www/html/index.html
         owner: ibmstudent
         
     - name: Start Apache
